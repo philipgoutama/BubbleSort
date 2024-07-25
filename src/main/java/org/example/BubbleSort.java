@@ -17,16 +17,16 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] A = {7,2,76,4,99};
         System.out.println("Unsorted array:");
-        for(int i = 0; i < A.length; i++) {
-            System.out.print(A[i] + " ");
+        for (int j : A) {
+            System.out.print(j + " ");
         }
         System.out.println();
 
         bubbleSort(A);
 
         System.out.println("Sorted array:");
-        for(int i = 0; i < A.length; i++) {
-            System.out.print(A[i] + " ");
+        for (int j : A) {
+            System.out.print(j + " ");
         }
         System.out.println();
     }
